@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.qdoAvisoCaixa{position:relative; height:160px;}      
+.qdoAvisoBtn{position: absolute; width: 90px; height: 20px; right: 0px; bottom: -20px; text-align:right;}      
+.qdoAvisoTexto{border:1px solid #f1f1f1; padding:5px; width:100%; height:100%; font-family:Arial; color:#1B1B1B;}
+
+#caixa_conteudo{ border-radius: 5px; transition:ease 0.2s;}
+#caixa_conteudo:hover{-webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.40); -moz-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.40); box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.40);transition:ease 0.2s;} 
+
+.imgOpa8:hover{ opacity:0.8; transition:ease 0.2s; }
+
+/* Footer assinatura inicial */
+footer .container div:nth-child(2){height: 45px; margin:0; margin-top: 15px;}
+
+/*Buttons*/
+button.btn.btn-green { background: #2ca62f; color: white; }
+button { border-radius: 3px; padding: 5px 5px; border:0; font-size:11px; }
+
+/* INICIAL  */
+.cliente1 { float:left; width:100%; background:white; padding:10px 0; height:200px; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); }
+.cliente, .anotacoes { float:left; width:100%; background:white; padding:10px 20px; height:200px; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); margin:10px 0 10px 0; }
+.ligerar li { display:inline-block; }
+.ligerar .button { background: #2ca62f; color: white; border-radius: 4px; padding: 9px 17px; margin: 0; float: left;	 margin-left:10px; border:0px; cursor:pointer; }	
+.ligerar .block li { display:block; }		
+.gerarboleto .nice-select.wide { width: 100%; min-width: 150px; text-align:center; }
+.gerarboleto { float:left;  width:62%;  }
+.gerarboleto p{ width:100%; margin:0; }
+/* INICIAL  */
+/**/
+.slcBoleto{ width:81%; padding: 9px 5px; font-size:11.5px; float: left; }
+.iBol_CaixaTexto{font-size:12px; float: left; width: 100%; padding: 12px 0; line-height: 1; border-bottom: 1px solid #dedede; font-weight: normal;}
+.iBol_CaixaSlct{float:left; width:100%; padding: 10 0 0 0;}
+.cxIniBoleto{ /* height:unset; */ }
+/**/
+.wide{ display:block; }
+.infoplano { float:left; width:100%; line-height: 1.4; }
+.cliente div:nth-child(2) strong { font-size:18px; }
+.cliente i { float:left; padding:6px 10px; border-radius:3px; font-size:22px; background:#ebeff2; }		
+.cliente h4 { width:100%; float:left; font-size:14px; padding:5px 0; }
+.modulos { float:left; width:100%; background:white; padding:0; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); margin:0 0 12px 0; }
+.modulos:hover, .cliente:hover{ box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.5), 0 1px 5px 0 rgba(0,0,0,.5); transition:ease 0.2s;	 }
+.modulos h3, .cliente h3{ float:left; width:100%; font-size:20px; padding:15px 0; /*15px 15px 15px*/ line-height:1;	 border-bottom:1px solid #dedede; font-weight:normal; }	
+.modulos small, .cliente small, .ge-atendimento small, .mural small, .negocios small, .box small{ font-size:12px; font-weight:normal;	 }	
+.cliente p { float:left; margin:12px 0; /*15px 15px*/ }		
+.modulos p{ background:white; float:left; width:100%; color:#6a6c6f; text-align:center; padding:10px 0; font-size:11px; }	
+.modulos .badge { float:left; color: #fff; width:auto; padding: 2px 5px; height:auto; border-radius: 2px; font-size: 10px; margin:-2px 5px 0 0; text-transform:uppercase; }	
+#imobrbadge { margin: 7px 5px 0 0; }
+.modulos.imobr ul{ padding:5px 15px; margin:1px 0; border:0px solid red; }
+.imobr li:first-child { /* background:rgba(235, 239, 242, 0.47); */ padding:5px; margin:1px 0; }
+.imobr p{ float:left; width:100%; color:#6a6c6f; text-align:left; padding:3px 8px; font-size:11px; background:none; }	
+.imobr i { vertical-align:middle; float:left; font-size:18px; margin:5px 10px 0 0; } 
+.modulos img { vertical-align:middle; float:left; margin:-4px 0 0 0; }
+.mod-ico h3 { padding:5px 10px; }
+.ge-atendimento{ float:left; width:100%; background:white; padding:0; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); }
+.box{ float:left; width:100%; background:white; padding:0; -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); }
+.ge-atendimento h3, .mural h3, .negocios h3, .url h3, .box h3 { float:left; width:100%; font-size:20px; font-weight:400; padding:15px; line-height:1;	 color:#6a6c6f; background:#eff3f5; border-bottom:0; margin-bottom:10px; }
+.zozo h3{ float:left; width:100%; position:relative; z-index:0; font-family: 'Ubuntu', sans-serif; font-size:20px; font-weight:400; padding:15px; margin-top:-45px; line-height:1;	 color:#6a6c6f; background:#eff3f5; border-bottom:0; }		
+.ge-atendimento small, .mural small, .negocios small, .url small{ margin:5px 0; float:right; }
+.mural { float:left; width:100%; background:white; min-height:340px; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); }
+.mural p { float:left; width:70%; /* height:80px; */ text-align:left; }
+.mural span { float:right; width:20%; /* height:80px; */ padding:18px 0 0 0; text-align:center; }	
+.mural i { margin:0 10px; }					
+.inicial_SocialPixel_cx{font-size: 14px; text-align: center;}
+.inicial_SocialPixel_img{max-width: 100%;max-height: 165px; float: unset !important;}
+.inicial_SocialPixel_desc{margin-top: 12px; margin-bottom: 0px;}
+.inicial_SocialPixel_btn{width:80%; margin: 0px auto; margin-top: 10px; color: #fff; background-color: #5cb85c; border-color: #4cae4c; text-align: center; font-weight: normal; cursor: pointer; padding: 10px; font-size: 14px;  border-radius: 4px;}
+
+.negocios { float:left; width:100%; background:white; min-height:340px;	 box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); }	
+.url { float:left; width:100%; background:white; min-height:100px; -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.17); }	
+.msg-recebidas  ul, .mural ul, .negocios ul{ width:100%; list-style:none; padding:0px 20px; float:left; font-size: 12px; height: 260px; overflow-y: auto;	 }
+#negocios_scroll::-webkit-scrollbar-track { /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */ background-color: #F5F5F5; }
+#negocios_scroll::-webkit-scrollbar { width: 10px; background-color: #F5F5F5; }
+#negocios_scroll::-webkit-scrollbar-thumb { background-color: #DDD; border: 2px solid #DDD; }
+.msg-recebidas  li, .mural li{ padding:5px 0; border-bottom:1px solid #e4e4e4; line-height:1.5; color:#6a6c6f; list-style:none; float:left; width:100%; text-align:left; }	
+.msg-recebidas p { float:left; width:100%; margin:0px 0; padding:0; line-height:none; height:auto;	 }
+.tab li { padding:0; border-bottom: 1px solid #e4e4e4; padding:12px 0; position:relative; }
+.tab li:last-child { border-bottom: 1px solid #e4e4e4; }	
+.tab_revisao_acoes{position: absolute; right: 0;}
+.tab_revisao_acoes .rev_addData{ width: auto; margin-right: 5px; text-decoration:none; }
+.tab_rev_Data{float: unset !important; width: auto; padding: unset;}
+
+.negocios li{ padding:10px 0; border-bottom:1px solid #e4e4e4; line-height:1.5; color:#6a6c6f; list-style:none; float:left; width:100%; text-align:left; }	
+.btver { margin:2% 22%; float:left; padding:12px 15px; background:#ebeff2; border-radius:5px; border:1px solid #dedede; color:#6a6c6f; text-decoration:none; transition:ease 0.3s; }
+.btver:hover {background: #9EA7B3;color: white;transition:ease 0.3s;}
+.btpadrao {margin:0;width:100%;float:left;padding:10px 15px;background:#ebeff2;border-radius:5px;border:1px solid #dedede;color:#6a6c6f;text-decoration:none;text-align:center;}
+.bver {margin:0;width:100%;float:left;padding:10px 15px;background:#ebeff2;border-radius:5px;border:1px solid #dedede;color:#6a6c6f;text-decoration:none;}
+h3.titulo {padding:10px 17px;}
+.m2 p{padding:17px 0;}	
+.gerar select{background:white;border:1px solid #d9dee2;border-radius:3px;padding:11px 10px;margin:0 5px;width:60%;float:left;}
+.gerar button {float: left;background: #2ca62f;color: white;border: 1px solid #d9dee2;border-radius: 3px;padding: 7px 15px;margin: 0;}
+.separacao { float:left; width:100%; border:0; }	
+
+/*Branco*/
+.cor0 {color:white;}
+.bg-cor0 {background-color:white;}
+.border-cor0 {border-color:white;}
+
+/*Azul*/
+.cor1 {color:#188ae2;}
+.bg-cor1{background:#188ae2;}
+.border-cor1 {border-color:#188ae2;}
+
+/*Amarelo*/
+.cor2 {color:#f4c332;}
+.bg-cor2 {background-color:#f4c332;}
+.border-cor2 {border-color:#f4c332;}
+
+/*Verde*/
+.cor3 {color:#10c469;}
+.bg-cor3 {background-color:#10c469;}
+.border-cor3 {border-color:#10c469;}
+
+/*Rosa*/ 
+.cor4 {color:#ff5b5b;}
+.bg-cor4 {background-color:#ff5b5b;}
+.border-cor4 {border-color:#ff5b5b;}
+
+/*Cinza Claro*/
+.cor5 {color:#6a6c6f;}
+.bg-cor5 {background-color:#6a6c6f;}
+.border-cor5 {border-color:#6a6c6f;}
+
+/*Verde*/
+.cor6 {color:#2CA62F;}
+.bg-cor6 {background-color:#2CA62F;}
+.border-cor6 {border-color:#2CA62F;}
+
+
+/*Azul Bebe*/
+.cor7 {color:#70d9da;}
+.bg-cor7 {background-color:#70d9da;}
+.border-cor7 {border-color:#70d9da;}
+
+/*Roxo*/
+.cor8 {color:#5b69bc;}
+.bg-cor8 {background-color:#5b69bc;}
+.border-cor8 {border-color:#5b69bc;}
+
+/*Vermelho*/
+.cor9 {color:#ff0000;}
+.bg-cor9 {background-color:#ff0000;}
+.border-cor9 {border-color:#ff0000;}
+
+
+/*Cor Cinza Preto*/
+.bg-cor10 {background:#323A45;}
+
+/*Cor Cinza Claro Preto*/
+.bg-cor11 {background:#9EA7B3;}
+
+/*Amarelo Escuro*/
+.cor12 {color:#E99529;}
+.bg-cor12 {background-color:#E99529;}
+.border-cor12 {border-color:#E99529;}
+
+::selection {color: white; background: #2CA62F;}
+
+/* Boleto */ 
+.black_overlay { display: none; position: fixed; top: 0%; left: 0%; width: 100%; height: 100%; background-color: black; z-index:1001; -moz-opacity: 0.3; opacity:.30; filter: alpha(opacity=30); }
+.white_content { display: none; position: fixed; top: 25%; left: 40%; width: 458px; height: 385px; padding: 0px; z-index:1002; overflow: auto; background-color:#2694df; color:#FFF; overflow:hidden;}          
+.white_content > .wtexto { display:block; text-align:center; padding:30px; font-size:14px;     text-align: justify; }
+.white_content > .wtexto a{ text-decoration:none; color:#FFF;}
+.white_content > .wtexto span{ font-size:18px; font-weight:bold;}
+.wbotao{background-color: #1574b4;float: left;color: #FFF;padding: 10px 30px;font-size: 16px;border-radius: 10px; margin: 12px 0px; text-align:center; font-size: 16px !important; width:100%; }
+.white_content > .wfechar{ display:block; text-align:center; background-color:#FFF; height:20px; width:100%; }
+.white_content > .wfechar a{ text-decoration:none; color:#333; line-height: 20px; }
+/* Boleto */ 
+
+
+/* Ações do Imóvel */
+.inativo { background-color: #ccc !important; }
+.acoes-imovel-filtrar{display: inline-block;margin: 0px 5px;color: #fff;text-align: center;font-weight: normal;cursor: pointer;padding: 4px 15px;font-size: 11px;border-radius: 4px;transition: 0.4s all;user-select: none;}
+.ai_tipo{text-transform: capitalize;margin-right: 5px;padding: 2px 8px;border-radius: 8px;background-color: #e1e1e1;font-size: 11px;font-weight: normal;color: #424242;}
+.ai_status_circulo{width: 8px;height: 8px;display: inline-block;border-radius: 50%;margin-right: 5px;}
+.acoes-li{padding: 6px 0 !important;}
+.acoes-li:hover{background-color: #eff3f5; transition: all 0.4s ease;}
+.acoes-ul{ padding: 0 10px !important; height:250px !important; }
+.acoes-fa-home{margin: 0 3px 0px 0px !important;}
+.tooltip-balao {font-family: Arial;position: absolute;width: 165px;padding: 3px;text-align: center;color: #FFF;box-shadow: 0px 0px 1px 1px #ddd;border-radius: 5px;font-size: 12px;background-color: rgba(0,0,0,0.8);z-index: 999;}
+.ai-bt-cor1{color: #fff; background-color: #0094e1; border-color: #0094e1 !important;}
+.ai-bt-cor2{color: #fff; background-color: #f9bc04; border-color: #f9bc04 !important;}
+.ai-p {width:100%; padding: 2px 5px;background-color: transparent !important;}
+.ai-semacao-icone{background-color: #ebeff2;padding: 16px 40px !important;border-radius: 74px;color: #f00;font-size: 50px;text-align: center;float: none !important;}
+
+
+@media only screen and (max-width: 970px) {
+	.slcBoleto{width:73%;}
+}
+
+@media only screen and (max-width: 719px) {
+	.white_content{width:100%; left:0; top:30px;}
+	
+	.iBol_CaixaTexto{padding: 0; border:0px;}
+	.slcBoleto{ width:65%; }
+	.iBol_CaixaTexto small{ display:none; }
+}

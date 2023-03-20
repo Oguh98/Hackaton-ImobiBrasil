@@ -1,0 +1,1219 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    background: #EBEFF2;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+/*a:visited { text-decoration: none; color: #4d4d4d; }*/
+a:hover {
+    text-decoration: underline;
+    color: #1f9b47;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.placa {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #0db33b;
+    font-size: 28px;
+}
+
+.fonte_padraom {
+    font-size: 11px;
+    color: #1B1B1B;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.fonte_padrao {
+    font-size: 14px;
+    color: #1B1B1B;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fonte_padraocor {
+    font-size: 14px;
+    color: #0db33b;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fonte_titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0db33b;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* 1c813c */
+.fonte_chamadat {
+    font-size: 11px;
+    font-weight: normal;
+    color: #0db33b;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.fonte_rodape {
+    font-size: 13px;
+    color: #FFF;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.fonte_menutopo {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#caixa_conteudo {
+    background-color: #f1f1f1;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+.fonte_padrao10 {
+    font-size: 10px;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+.fonte_padrao9 {
+    font-size: 9px;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.fonte_menu {
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.fonte_exemplo {
+    font-size: 9px;
+    color: #888888;
+    font-weight: normal;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.fonte_itens {
+    font-size: 13px;
+    color: #1c813c;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* 125206 */
+.branconegrito {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.data {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+}
+
+.opacity4 {
+    opacity: 0.4;
+}
+
+select {
+    -moz-appearance: none;
+    -moz-border-end-color: #181817;
+}
+
+@-moz-document url-prefix() {
+    select {
+        -moz-appearance: none;
+        -moz-border-end-color: #181817;
+        border-right-color: #181817;
+    }
+}
+
+.campo {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.campo select {
+    -moz-appearance: none;
+    -moz-border-end-color: #181817;
+}
+
+.conteudo select {
+    -moz-appearance: none;
+    -moz-border-end-color: #181817;
+}
+
+.maiusculo {
+    TEXT-TRANSFORM: uppercase;
+}
+
+.caixa {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.caixaGrande {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 250px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.caixaMenor {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.vermelho {
+    color: #990000 !important;
+}
+
+.azul {
+    color: #0000CC !important;
+}
+
+.azul2-bg {
+    background-color: #2794df;
+}
+
+.ajudavn1 {
+    background: #00721e;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+.ajudavn2 {
+    background: #009928;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#tab_contorno {
+    background-color: #FFFFFF;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+
+#caixa {
+    position: fixed;
+    left: 0px;
+    top: 125px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ############# CAIXA FORMULARIO ################ */
+#imovel_item,
+.imovel_item {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 1px #FFF;
+    width: 100%;
+}
+
+/*padding: 12px;*/
+#imovel_item:hover,
+.imovel_item:hover {
+    border: solid 1px #2ca62f;
+    background-color: #f7f7f7;
+}
+
+#imovel_separa_item {
+    height: 10px;
+}
+
+.imovel_cp {
+    margin-right: 5px;
+    position: relative;
+    float: left;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+/* height:50px; */
+.imovel_cp span {
+    font-size: 12px;
+    color: #1B1B1B;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.imovel_cp select {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding-left: 5px;
+    -moz-appearance: none;
+    -moz-border-end-color: #181817;
+}
+
+.imovel_cp select:hover {
+    border-color: #2ca62f;
+    -moz-border-end-color: #181817;
+    background-color: #f7f7f7;
+    text-shadow: 0 0 black;
+}
+
+.imovel_cp input[type=text] {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.imovel_cp input[type=text]:hover {
+    border-color: #2ca62f;
+    background-color: #f7f7f7;
+    text-shadow: 0 0 black;
+}
+
+.placa_item {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #2ca62f;
+    font-size: 24px;
+}
+
+.imovel_inserir_linha {
+    height: 1px;
+    background-color: #2ca62f;
+    margin-bottom: 10px;
+}
+
+/* ############# CAIXA FORMULARIO ################ */
+
+
+/* ############# FORMULARIO EXTRA ################ */
+.fcaixa_item {
+    position: relative;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid 1px #FFF;
+    width: 100%
+}
+
+.fcaixa_item:hover {
+    border: solid 1px #039341;
+    background-color: #f7f7f7;
+}
+
+.fcaixa_item>.fc_separa {
+    height: 10px;
+}
+
+.fcaixa_item>.fc_placa {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #039341;
+    font-size: 24px;
+}
+
+.fcaixa_item>.fc_campo {
+    height: 50px;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+}
+
+.fcaixa_item>.fc_campo span {
+    font-size: 12px;
+    color: #1B1B1B;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fcaixa_item>.fc_campo select {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 24px;
+    width: 100%;
+    background-color: #FFFFFF;
+    -moz-appearance: none;
+    -moz-border-end-color: #181817;
+}
+
+.fcaixa_item>.fc_campo select:hover {
+    border-color: #039341;
+}
+
+.fcaixa_item>.fc_campo input[type=text] {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    border: solid 1px #CCCCCC;
+    height: 24px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.fcaixa_item>.fc_campo input[type=text]:hover {
+    border-color: #039341;
+}
+
+.fcaixa_btn-enviar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ############# FORMULARIO EXTRA ################ */
+.cx_submenu {
+    float: left;
+    /* width:205px; height:42px; padding: 0px 12px;  */
+    margin-right: 15px;
+    background-color: #2ca62f;
+    text-align: center;
+    transition: ease 0.2s;
+    border-radius: 3px;
+}
+
+.cx_submenu:hover {
+    transition: ease 0.2s;
+    background-color: #333;
+}
+
+.cx_submenu a {
+    padding: 10px 10px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+}
+
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    visibility: visible;
+}
+
+
+
+/* PAGINACAO */
+.lista_imoveis_paginacao {
+    position: relative;
+    padding: 5px 0px;
+    text-align: center;
+    width: 90%;
+    border: 1px solid rgb(241, 241, 241);
+    box-shadow: 0px 0px 10px rgb(235, 235, 235);
+    margin: 0px 0px 20px 0px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.lista_imoveis_paginacao select {
+    position: absolute;
+    right: 10px;
+    width: 180px;
+    height: 30px;
+}
+
+.lipagina-btn-paginacao {
+    display: -moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #666;
+    -webkit-apprence: none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    overflow: visible;
+    padding: 12px 12px;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    border: none;
+    margin: 3px;
+    font-family: Arial;
+}
+
+.lipagina-btn-paginacao-atual {
+    display: -moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-apprence: none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    overflow: visible;
+    padding: 12px 12px;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    border: none;
+    margin: 3px;
+    font-family: Arial;
+}
+
+.li_bgcor_vaz {
+    background: #999;
+}
+
+/* PAGINACAO */
+
+
+/* IDENTIFICACAO */
+.branco {
+    color: #FFF;
+}
+
+.frm_campo_ident {
+    padding-right: 5px;
+    color: #181818;
+    border: solid 1px #dfdfdf;
+    width: 370px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 33px;
+}
+
+.frm_campo_identu {
+    padding-left: 123px;
+    background-image: url(imagens/identificacao_usuario.png);
+}
+
+.frm_campo_idents {
+    padding-left: 113px;
+    background-image: url(imagens/identificacao_senha.png);
+}
+
+/* IDENTIFICACAO */
+
+/* Relatorios */
+.fonte_texto {
+    font-size: 13px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+.fonte_ttitulo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+/* ImobrNegocios */
+.imobrNegCx {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+.imobrNegCx:hover {
+    border: 1px solid #37b73a;
+}
+
+.imobrNegCx>.iNItemData {
+    float: left;
+    height: 65px;
+    width: 95px;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.imobrNegCx>.iNItemInteresse {
+    float: left;
+    height: 77px;
+    width: 147px;
+    border-right: 1px solid #e5e5e5;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 28px;
+    line-height: 18px;
+}
+
+.imobrNegCx>.iNItemInteresse span {
+    color: #37b73a;
+}
+
+.imobrNegCx>.iNItemCaracteristicas {
+    float: left;
+    height: 85px;
+    width: 164px;
+    border-right: 1px solid #e5e5e5;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.imobrNegCx>.iNItemCaracteristicas>.INCaracCx {
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+
+.imobrNegCx>.iNItemCaracteristicas>.INCaracCx1 {
+    background: url(imagens/imobrnegocios/ic_caracteristicas1.png) center left no-repeat;
+}
+
+.imobrNegCx>.iNItemCaracteristicas>.INCaracCx2 {
+    background: url(imagens/imobrnegocios/ic_caracteristicas2.png) center left no-repeat;
+}
+
+.imobrNegCx>.iNItemCaracteristicas>.INCaracCx3 {
+    background: url(imagens/imobrnegocios/ic_caracteristicas3.png) center left no-repeat;
+}
+
+.imobrNegCx>.iNItemLocalizacao {
+    float: left;
+    height: 65px;
+    width: 178px;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.imobrNegCx>.iNItemLocalizacao span {
+    color: #37b73a;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.imobrNegCx>.iNItemSepara1 {
+    float: left;
+    height: 105px;
+    width: 7px;
+}
+
+.imobrNegCx>.iNItemDesc {
+    float: left;
+    height: 105px;
+    width: 250px;
+    font-style: italic;
+    padding: 0px 10px 0px 10px;
+}
+
+.imobrNegCx>.iNItemDesc p {
+    display: table-cell;
+    height: 105px;
+    vertical-align: middle;
+}
+
+.imobrNegCx>.iNItemContato {
+    float: left;
+    position: relative;
+    height: 105px;
+    width: 120px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.imobrNegCx>.iNItemContato>.iNVerContato {
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 20px;
+    background: url(imagens/imobrnegocios/ic_contato.png) center left no-repeat;
+}
+
+.imobrNegCx>.iNItemContato>.iNVerContato a {
+    color: #7d7d7d;
+    font-family: "Trebuchet MS", Arial;
+    font-size: 12px;
+    display: block;
+    padding: 8px;
+}
+
+.imobrNegCx>.iNItemContato>.iNVerContato a:hover {
+    color: #000;
+}
+
+.imobrNegCx>.INContatoDet {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #37b73a;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    padding-top: 25px;
+    display: none;
+}
+
+.imobrNegCx>.INContatoDet span {
+    font-size: 20px;
+    display: block;
+}
+
+.imobrNegCx>.INContatoDet>.INSeta {
+    position: absolute;
+    top: -1px;
+    width: 30px;
+    height: 16px;
+    right: 50px;
+}
+
+/* ImobrNegocios */
+
+.CxTotal {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+/* Relatorios Imoveis */
+.rel_fonte1 {
+    font-size: 13px;
+    font-family: Arial, Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+.rel_fontegde {
+    font-size: 18px;
+    font-family: Arial, Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+.rel_fontepqn {
+    font-size: 11px;
+    font-family: Arial, Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+.rel_fichaimo_borda {
+    border: 1px solid #b8b8b8;
+}
+
+.rel_fichaimo_bordaSI {
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.rel_fichaimo_bordaS {
+    border-top: 1px solid #b8b8b8;
+}
+
+.rel_fichaimo_bordaI {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.rel_fichaimo_titulocx {
+    border: 1px solid #b8b8b8;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Arial, Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+/* Relatorios Imoveis */
+
+
+/* FORA Botoes Acoes Gerenciador de Atendimento */
+.GAtendCxAcoes {
+    float: left;
+    width: 100px;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenu {
+    height: 32px;
+    line-height: 32px;
+    margin-left: 15px;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenu a {
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    padding-left: 30px;
+    display: block;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenu a:hover {
+    color: #000;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenuic1 {
+    background: url(imagens/botoes/bt_visualizar.png) center left no-repeat;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenuic2 {
+    background: url(imagens/botoes/bt_alterar.png) center left no-repeat;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenuic4 {
+    background: url(imagens/botoes/bt_excluir.png) center left no-repeat;
+}
+
+.GAtendCxAcoes>.GAtendAcoesMenuic1off {
+    background: url(imagens/botoes/bt_visualizaroff.png) center left no-repeat;
+    font-family: Arial;
+    color: #CCC;
+    font-size: 12px;
+    padding-left: 30px;
+    display: block;
+}
+
+/* FORA  Botoes Acoes Gerenciador de Atendimento */
+/* Gerenciador Listar */
+.GerAtendListaCx {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.GerAtendListaCx:hover {
+    border: 1px solid #37b73a;
+}
+
+.GerAtendListaCx>.GALisData {
+    float: left;
+    width: 91px;
+    height: 55px;
+    padding-top: 20px;
+    border-right: 1px solid #e5e5e5;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.GerAtendListaCx>.GALisData span {
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+}
+
+.GerAtendListaCx>.GALisData>.GALisDataExapnde {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 1px;
+    left: 1px;
+}
+
+.GerAtendListaCx>.GALisCliente {
+    float: left;
+    width: 235px;
+    height: 67px;
+    border-right: 1px solid #e5e5e5;
+    text-align: left;
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+.GerAtendListaCx>.GALisCliente span {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    height: 17px;
+    overflow: hidden;
+}
+
+.GerAtendListaCx>.GALisStatus {
+    float: left;
+    width: 100px;
+    height: 55px;
+    padding-top: 20px;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.GerAtendListaCx>.GALisTexto {
+    float: left;
+    width: 435px;
+    height: 75px;
+    background-color: #f4f4f4;
+    padding: 0px 10px 0px 10px;
+    font-size: 11px;
+    color: #333;
+}
+
+.GerAtendListaCx>.GALisTexto p {
+    display: table-cell;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.GerAtendListaCx>.GALisSepara1 {
+    float: left;
+    width: 7px;
+    height: 75px;
+}
+
+.GerAtendListaCx>.GALisMenuCx2 {
+    float: left;
+    width: 85px;
+    height: 75px;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2 {
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2 a {
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    padding-left: 30px;
+    display: block;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2 a:hover {
+    color: #000;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2ic1 {
+    background: url(imagens/botoes/bt_visualizar.png) center left no-repeat;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2ic2 {
+    background: url(imagens/botoes/bt_alterar.png) center left no-repeat;
+}
+
+.GerAtendListaCx>.GALisMenuCx2>.ImoLisMenu2ic4 {
+    background: url(imagens/botoes/bt_excluir.png) center left no-repeat;
+}
+
+/* Gerenciador Listar */
+
+/* Gerenciador Listar Etapas */
+.GerAtendEtapaCx {
+    width: 988px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.GerAtendEtapaCx>.GALisEtapaData {
+    float: left;
+    width: 78px;
+    height: 50px;
+    padding-top: 25px;
+    border-right: 1px solid #e5e5e5;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.GerAtendEtapaCx>.GALisEtapaStatus {
+    float: left;
+    width: 175px;
+    height: 55px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.GerAtendEtapaCx>.GALisEtapaStatus span {
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+}
+
+.GALisECor1 {
+    color: #49c0ad;
+}
+
+.GALisECor2 {
+    color: #2ab3dd;
+}
+
+.GALisECor3 {
+    color: #74e322;
+}
+
+.GALisECor4 {
+    color: #f15e1b;
+}
+
+.GALisECor5 {
+    color: #67298c;
+}
+
+.GALisECor1bg {
+    background-color: #49c0ad;
+}
+
+.GALisECor2bg {
+    background-color: #2ab3dd;
+}
+
+.GALisECor3bg {
+    background-color: #74e322;
+}
+
+.GALisECor4bg {
+    background-color: #f15e1b;
+}
+
+.GALisECor5bg {
+    background-color: #67298c;
+}
+
+.GerAtendEtapaCx>.GALisEtapaStatusCor {
+    float: left;
+    width: 4px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.GerAtendEtapaCx>.GALisTexto {
+    float: left;
+    width: 605px;
+    height: 75px;
+    background-color: #f4f4f4;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+.GerAtendEtapaCx>.GALisTexto p {
+    display: table-cell;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.GerAtendEtapaCx>.GALisSepara1 {
+    float: left;
+    width: 7px;
+    height: 75px;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2 {
+    float: left;
+    width: 85px;
+    height: 65px;
+    padding-top: 10px;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2>.ImoLisMenu2 {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2>.ImoLisMenu2 a {
+    font-family: Arial;
+    color: #5e5e5e;
+    font-size: 12px;
+    padding-left: 30px;
+    display: block;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2>.ImoLisMenu2 a:hover {
+    color: #000;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2>.ImoLisMenu2ic1 {
+    background: url(imagens/botoes/bt_visualizar.png) center left no-repeat;
+}
+
+.GerAtendEtapaCx>.GALisMenuCx2>.ImoLisMenu2ic4 {
+    background: url(imagens/botoes/bt_excluir.png) center left no-repeat;
+}
+
+/* Gerenciador Listar Etapas */
+.qdoAvisoCaixa {
+    position: relative;
+    height: 290px;
+}
+
+.qdoAvisoBtn {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    right: 0px;
+    bottom: -20px;
+    text-align: right;
+}
+
+.qdoAvisoTexto {
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    width: 100%;
+    height: 290px;
+    font-family: Arial;
+    color: #1B1B1B;
+}
+
+.btn_etapas:hover {
+    opacity: 0.9;
+}
+
+.btenviar1 {
+    border-radius: 5px;
+    padding: 15px 33px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease 0.3s;
+    border: 0;
+    cursor: pointer;
+    background: #1c813c;
+    color: white;
+}
+
+.btenviar1:hover {
+    transition: ease 0.3s;
+    background: #333;
+}
+
+.btenviar2 {
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease 0.3s;
+    border: 0;
+    cursor: pointer;
+    background: #1c813c;
+    color: white;
+}
+
+.btenviar2:hover {
+    transition: ease 0.4s;
+    background: #333;
+}
+
+.btnExemploA {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-left: 10px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.btnPropNovo {
+    cursor: hand;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2.5px 5px;
+    font-size: 11px;
+    background-color: #d9d9dd;
+    text-decoration: none !important;
+    transition: ease 0.1s;
+}
+
+.btnPropNovo:hover {
+    background-color: #0094e1;
+    color: #FFF;
+    transition: ease 0.1s;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.linhaHover:hover {
+    background-color: #e1e1e1;
+    transition: ease 0.1s;
+}

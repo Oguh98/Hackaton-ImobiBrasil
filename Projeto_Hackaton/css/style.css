@@ -1,0 +1,85 @@
+@charset "utf-8"; /* CSS Document */
+body { font-family: 'Ubuntu', sans-serif; font-size: 13px; font-weight: normal; margin: 0; background: #EBEFF2; }
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.container {max-width: 1400px; margin: 0 auto; }
+
+/*========= Header ==========*/
+header { float: left; width: 100%; background: #2ca62f; }
+.logo {float: left; margin: 5px 20px 0px 0px; } /* margin: 5px 0; width: 20%; */
+.menu {} /* width: 80%; float: left; */
+section {float: left; width: 100%; }
+a {color:inherit; }
+.menu a{color:white; font-weight: normal; }
+.sub-menu .container{margin:0 auto; }
+.sub-menu a {text-decoration: none; }
+.sub-menu {color:#6a6c6f; width:100%; float:left; background:white; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); margin: 0 0 10px 0; }
+.sub-menu ul { float:left; margin: 0; padding:0px; }	
+.sub-menu li {display:inline; float:left; padding:12px 10px; list-style:none; background:white; border-right: 1px solid rgb(233 232 232); }	
+/* .sub-menu li:first-child{border-right:1px solid rgba(228, 228, 228, 0.62); }*/
+.sub-menu li:last-child { border-right: none; }
+/* .sub-menu li:nth-child(1) {border-right:1px solid rgba(228, 228, 228, 0.62); } .sub-menu li:nth-child(4) { border-right: 1px solid rgba(228, 228, 228, 0.62); } */
+.sub-menu i {color: #f4c332; }
+
+/* Style Usuario / Avatar */
+.tp-submenu-partemenu{width: calc(100% - 290px);display: flex;flex: auto;display: inline-block;vertical-align: middle;}
+.tp-submenu-persona{width: 230px;display: inline-block;vertical-align: middle;	}
+.tp-submenu-persona_User{display: flex;justify-content: left;align-items: center;white-space: nowrap;padding: 5px 0px; text-align: center;}
+.tp-submenu-persona_User_Img{margin-right: 10px;width: 40px;height: 40px;}
+.tp-submenu-persona_User_Img img{display: block;height: inherit;width: inherit;border-radius: 46%;object-fit: cover;}
+.tp-submenu-persona_User_Text{flex-direction: column; text-align: left; overflow:hidden;}
+.tp-submenu-persona_User_Text span{display:block;}
+.tp-submenu-persona_User_Text small{font-size: 12px; line-height: 14px; opacity: 0.5;}
+.tp-submenu-User-fa { font-size:30px; color: #dadada !important; line-height: 38px; }
+
+.tp-submenu-persona-Link{position:relative;}		
+#tp_submenu-persona_User_Img-2 {position: absolute;width: 200px;height: 200px;left: 0;top: 45px; border-radius: 7%; visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear; z-index:10; }
+a.tp-submenu-persona-Link:hover #tp_submenu-persona_User_Img-2 { visibility: visible; opacity: 1; }
+
+@media only screen and (max-width: 719px) {
+.tp-submenu-partemenu{ width:100%; }
+.tp-submenu-persona{ width: calc(100% - 55px); padding: 5px;}
+.ct_topo-nov{ display:none; }
+}
+/* Style Usuario / Avatar */
+
+/*========= Footer ==========*/
+footer { float: left; width: 100%; background: #2ca62f; padding: 0; color: white; margin:0; }
+footer .container div:nth-child(1) {width: 20%; float: left; padding: 5px 0; height: 60px}
+footer .container div:nth-child(2) {width: 50%; float: left; margin:0; margin-top:15px; } /* height: 60px; */
+footer .container div:nth-child(3) {width: 30%; float: right; height: 60px}
+.social {padding: 10px 0; }
+.social i{background: white; color: #2ca62f; text-align: center; width: 38px; height: 38px; font-size: 21px; border-radius: 100%; line-height: 2; vertical-align: middle; margin: 0px 2px; }
+#return-to-top {opacity:0.5; position: fixed; bottom: 10px; right: 20px; background:#2CA62F; width: 50px; height: 50px; display: block; text-decoration: none; -webkit-border-radius: 35px; -moz-border-radius: 35px; border-radius: 35px; display: none; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+#return-to-top i {color: #fff; margin: 0; position: relative; left: 16px; top: 15px; font-size: 19px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+#return-to-top:hover {background:#168917; }
+#return-to-top:hover i {color: #fff; top: 10px; }
+
+/*========= Conteudo ==========*/
+.conteudo { background: white; min-height: 400px; }
+.corpo .conteudo { padding: 10px 20px; margin:0 0 10px 0; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); float:left; width:100%; }	
+.card { float: left; width: 100%; background: white; padding: 10px 20px; min-height: 180px; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); margin: 0 0 10px 0; }
+.titulo_placa { background:#eff3f5; /* margin:-10px -20px; */ margin: -10px -20px 10px -20px; padding:15px 15px; font-weight: normal; color: #6a6c6f; }
+
+/*========= Conteudo mobile  719px ==========*/
+@media only screen and (max-width: 719px) {
+	.logo{margin: 3px;}
+	.menu {width: 100%; }
+    .corpo .container { padding: 10px; }	
+    .corpo .conteudo .card {float: left; width: 100%; background: red; padding: 0; min-height: 180px; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); margin: 0; }	
+    .sub-menu .container{margin:0 auto; }
+    .sub-menu a { text-decoration: none; }
+    .sub-menu {color:#6a6c6f; width:100%; float:left; background:white; box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08); }
+    .sub-menu ul {float:left; margin: 0; padding: 0; font-size:16px; }	
+    .sub-menu li { float:left; padding: 10px 5px; }	
+    
+    /* .sub-menu li:nth-child(1) {border-right:0px solid rgba(228, 228, 228, 0.62); } .sub-menu li:nth-child(3) { display:none; } */
+    .sub-menu i {color: #f4c332; }
+    .ct2_verSite{ display:none; }
+	
+    /*========= Footer ==========*/
+    footer {float: left; width: 100%; background: #2ca62f; padding: 0; color: white; padding:10px; }
+    footer .container div:nth-child(1) {width:100%; float: left; }
+    footer .container div:nth-child(2) {width:100%; float: left; font-size:11px; }
+    footer .container div:nth-child(3) {width:100%; float: right; }
+
+}
