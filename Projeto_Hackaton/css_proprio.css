@@ -108,6 +108,60 @@ button {
 }
 
 
+.auto_ajuda {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 101;
+    display: none;
+}
+
+.message_tutorial {
+    position: absolute;
+    margin: 2% 45%;
+    z-index: 101;
+    background-color: white;
+    display: none;
+    width: 400px;
+    height: 209px;
+    padding: 40px;
+}
+.message_tutorial p {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.message_salvar{
+    position: absolute;
+    margin: 2% 45%;
+    z-index: 101;
+    background-color: white;
+    display: none;
+    width: 380px;
+    height: 159px;
+    padding: 40px;
+}
+
+.message_tutorial button {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 13px 23px;
+    background: green;
+    margin: 10% auto;
+    font-size: 18px;
+}
+
+.salva_modelo{ 
+    z-index: 101;
+    position: relative;
+    background-color: white;
+}
+.salva_modelo h4{
+    z-index: 101;
+    position: relative;
+}
+
 /* Fireworks */
 .fireworks {
     position: absolute;
