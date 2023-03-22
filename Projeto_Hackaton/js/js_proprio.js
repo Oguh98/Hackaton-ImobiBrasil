@@ -1,18 +1,3 @@
-/*const button = document.getElementByName('.button_popUp')
-const popup = document.getElementByName('.pop-wrapper')
-const close = document.getElementByName('.popup-Close')
-
-button.addEventListener('click',()=>{
-popup-wrapper.style.display = 'block'
-console.log('teste')
-}
-                        
-close.addEventListener('click',()=>{
-    popup-wrapper.style.display = 'none'
-    console.log('teste')
-}*/
-
-
 function exibirElemento() {
 
     /* if (document.getElementById('popup-wrapper').style.display == 'none') */
@@ -29,12 +14,27 @@ function DestaqueModelos() {
     document.getElementById('modelos').classList.add("destaque_modelos");
     document.getElementById('popup').style.display = 'none';
     document.getElementById('popup-wrapper').style.display = 'block';
+    document.getElementById('message_tutorial').style.display = 'block';
+}
+
+function DestaqueSalvarModelo(){
+    document.getElementById('modelos').classList.remove("destaque_modelos");
+    document.getElementById('message_tutorial').style.display = 'none';
+    document.getElementById('salva_modelo').classList.add("salva_modelo");
+    document.getElementById('message_salvar').style.display = 'block';
+}
+
+function EscolheModelo(){
+    document.getElementById('salva_modelo').classList.remove("salva_modelo");
+    document.getElementById('popup-wrapper').style.display = 'none';
+    document.getElementById('message_salvar').style.display = 'none';
+    document.getElementById('auto_ajuda').style.display = 'block';
 }
 
 // Fogos de Artificio;
 var bits = 400; // Número de pontos
 var intensity = 8; // Intensidade da explosao (recomendado entre 3 e 10)
-var speed = 15; // Velocidade (qnto menor for o numero, mais rapido)
+var speed = 7; // Velocidade (qnto menor for o numero, mais rapido)
 var colours = new Array("#03f", "#f03", "#0e0", "#93f", "#0cc", "#f93");
 // Cores dos fogos
 
