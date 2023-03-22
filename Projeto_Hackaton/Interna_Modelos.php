@@ -1839,7 +1839,7 @@
                 <div class="tp-submenu-notificacao__box">
                     <a class="tp-submenu-persona-Link">
                         <div class="tp-submenu-persona_User_Img tp-bell-pulse">
-                            <i style="" class="fa fa-bell-o tp-submenu-bell notificacoes-nao-lidas"></i>
+                            <i class="fa fa-bell-o tp-submenu-bell notificacoes-nao-lidas"></i>
                             <span class="pulse">1</span>
                         </div>
                     </a>
@@ -2936,7 +2936,7 @@
 
 
 
-                    <div class="grid-12 mb-4">
+                    <div id="salva_modelo" class="grid-12 mb-4">
                         <h4 style="font-size: 14px;" class="mb-1 mt-3 ml-2 ">Selecione seu modelo:</h4>
                         <form action="https://admin01.imobibrasil.net/imobiliarias/configuracoes_modelo.php?acao=gravar" method="post">
                             <div class="grid-3" style="padding-top: 10px;">
@@ -3022,8 +3022,18 @@
 
                     </div>
 
+                    <div id="message_salvar" class="message_salvar">
+                        <p>Após decidir qual modelo irá utilizar, basta selecionar o modelo e clicar em Salvar Modelo.</p>
+                        <button onclick="EscolheModelo();">Ok!</button>
+                    </div>
                     <div class="grid-12" style="height:20px;"></div>
-
+                    <div id="message_tutorial" class="message_tutorial">
+                        <p>Esses são os modelos disponíveis, você pode escolher um entre eles e se precisar é possível alternar entre os modelos, sem perder nenhuma informação.</p>
+                        <button onclick="DestaqueSalvarModelo();">Ok!</button>
+                    </div>
+                    <div id="auto_ajuda" class="auto_ajuda">
+                        <img src="" alt="">
+                    </div>
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
                         <tbody>
                             <tr>
