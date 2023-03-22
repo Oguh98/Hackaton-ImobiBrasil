@@ -142,7 +142,7 @@
 
 
                 <div class="grid-6">
-                    <div class="bg-cor0 cliente cxIniBoleto cor5" style="">
+                    <div class="bg-cor0 cliente cxIniBoleto cor5">
 
                         <div class="iBol_CaixaTexto">
                             <small>### MODELO ### IMOBILIÁRIA MODELO 2 WWW.IMOBIFLEX.COM.BR <br> RUA FULANO DE TAL, 1234, , CENTRO RIO DE JANEIRO, RJ</small>
@@ -325,25 +325,25 @@
 
                                 <li style="width:100%;background-color:rgb(4,76,119)">
                                     <div style="text-align:center;">
-                                        <span style="display: inline-block; color:#FFF; width: 100%; float:left; padding:3px; float:none;">Contato 28</span>
+                                        <span style="display: inline-block; color:#FFF; width: 100%; padding:3px; float:none;">Contato 28</span>
                                     </div>
                                 </li>
 
                                 <li style="width:92%;background-color:rgb(29,101,144)">
                                     <div style="text-align:center;">
-                                        <span style="display: inline-block; color:#FFF; width: 100%; float:left; padding:3px; float:none;">Visita 6</span>
+                                        <span style="display: inline-block; color:#FFF; width: 100%; padding:3px; float:none;">Visita 6</span>
                                     </div>
                                 </li>
 
                                 <li style="width:84%;background-color:rgb(54,126,169)">
                                     <div style="text-align:center;">
-                                        <span style="display: inline-block; color:#FFF; width: 100%; float:left; padding:3px; float:none;">Proposta 3</span>
+                                        <span style="display: inline-block; color:#FFF; width: 100%; padding:3px; float:none;">Proposta 3</span>
                                     </div>
                                 </li>
 
                                 <li style="width:76%;background-color:rgb(79,151,194)">
                                     <div style="text-align:center;">
-                                        <span style="display: inline-block; color:#FFF; width: 100%; float:left; padding:3px; float:none;">Negociações 5</span>
+                                        <span style="display: inline-block; color:#FFF; width: 100%; padding:3px; float:none;">Negociações 5</span>
                                     </div>
                                 </li>
                             </ul>
@@ -1187,7 +1187,7 @@
                     <a target="_blank" href="https://ajuda.imobibrasil.com.br/">
                         <div class="cor0 modulos bg-cor8">
                             <h3 class="titulo"><i class="fa fa-graduation-cap" style="width: 40px;
-                    font-size: 30px;height: 36px;text-align: center;display: block;vertical-align: middle;float: left;margin: 0px 10px 0px 0;"></i><small>Tutoriais</small><br>Central de Ajuda</h3>
+                    font-size: 30px;height: 36px;text-align: center;display: block;float: left;margin: 0px 10px 0px 0;"></i><small>Tutoriais</small><br>Central de Ajuda</h3>
                             <p>Confira nossa central de ajuda</p>
                         </div>
                     </a>
